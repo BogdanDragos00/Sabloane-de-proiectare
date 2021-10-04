@@ -1,4 +1,3 @@
-package lab1.MyBook;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +7,7 @@ public class Book {
     List<String> paragraph = new ArrayList<>();
     List<String> table = new ArrayList<>();
     List<String> image = new ArrayList<>();
- 
+
     public Book(String title) {
         this.title = title;
     }
@@ -40,7 +39,7 @@ public class Book {
     public List<String> getImage() {
         return image;
     }
-   
+
     public void print() {
         System.out.println("Title: " + title);
         System.out.println("Paragraph: " + paragraph);

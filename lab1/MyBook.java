@@ -1,4 +1,3 @@
-package lab1.MyBook;
 public class MyBook {
     public static void main(String[] args) {
         Book discoTitanic = new Book("Disco Titanic");
@@ -9,8 +8,8 @@ public class MyBook {
         discoTitanic.createNewParagraph("Paragraph 4");
         discoTitanic.createNewTable("Table 1");
         discoTitanic.createNewParagraph("Paragraph 5");
-        
+
         discoTitanic.print();
         }
-    
+
 }
