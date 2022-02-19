@@ -58,5 +58,6 @@ public class Angajat {
             this.getDepartment() +
             "]";
     }
+    // kasda
 
 }
